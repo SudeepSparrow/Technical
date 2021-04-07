@@ -1,0 +1,153 @@
+body{
+    font-family:'Montserrat', 'sans-serif' ;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Title */
+#title{
+    background-color: black;
+    color: white;
+    padding-bottom: 0px;
+    
+}
+.container-fluid{
+    padding: 0 15%;
+}
+
+.navbar{
+    padding: 0 0 0.75rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu','sans-serif';
+    font-weight:bold;
+    font-size: 2rem;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.nav-link{
+    font-weight: bold;
+  }
+
+.carousel-caption{
+    padding-bottom: 300px;
+}
+
+
+/*Elements*/
+
+h1,h2,h3,h5{
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+h2{
+    line-height: 1.5;
+    font-size: 3rem;
+    text-align: center;  
+}
+
+h3{ 
+    text-align: center;
+}
+h5{
+    font-size: 3.75rem;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+p{
+    color: #afafaf;
+    text-align: center;
+
+}
+
+/*Features*/
+#features a{
+    color: black;
+    
+
+}
+#features a:hover{
+    color: red;
+}
+ #features{
+ padding: 7% 15% ;
+ background-color: #fff;
+ position: relative;
+ z-index: 1;
+ }
+ .feature{
+     text-align: center;
+     padding: 5%;
+ }
+ 
+ /*Destinations*/
+
+ #Destinations{
+    background-color: #afafaf;
+    column-count: 4;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+ }
+ img {
+    transition:transform 0.25s ease;
+}
+ #Destinations img:hover{
+        -webkit-transform:scale(1.5); /* or some other value */
+        transform:scale(1.25);
+ }
+ .grid-items img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+ 
+ @media (max-width: 1027px){
+     #title{
+         text-align: center;
+     }
+     h5{
+         font-size: 2.75rem;
+     }
+     #Destinations{
+         column-count: 2;
+     }
+
+ }
+ @media (max-width: 375px){
+     #Destinations{
+         column-count: 1;
+     }
+     h5{
+        font-size: 1.75rem;
+    }
+ }
+
+ /*Footer*/
+
+ #footer{
+     background-color: #fff;
+     text-align: center;
+     
+ }
+ .foot{
+    margin: 20px 10px;
+ }
+ 
+
+ 
+ 
+ 
